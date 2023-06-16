@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9783D2729887754003620AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D2629887754003620AD /* AppDelegate.swift */; };
+		A9783D2929887754003620AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D2829887754003620AD /* SceneDelegate.swift */; };
+		A9783D2B29887754003620AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D2A29887754003620AD /* ViewController.swift */; };
+		A9783D2E29887754003620AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9783D2C29887754003620AD /* Main.storyboard */; };
+		A9783D3029887755003620AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9783D2F29887755003620AD /* Assets.xcassets */; };
+		A9783D3329887755003620AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9783D3129887755003620AD /* LaunchScreen.storyboard */; };
+		A9783D3E29887755003620AD /* REST_API_FilmlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D3D29887755003620AD /* REST_API_FilmlerTests.swift */; };
+		A9783D4829887755003620AD /* REST_API_FilmlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D4729887755003620AD /* REST_API_FilmlerUITests.swift */; };
+		A9783D4A29887755003620AD /* REST_API_FilmlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D4929887755003620AD /* REST_API_FilmlerUITestsLaunchTests.swift */; };
+		A9783D5729887821003620AD /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D5629887821003620AD /* Kategoriler.swift */; };
+		A9783D59298878A6003620AD /* KategorilerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D58298878A6003620AD /* KategorilerCevap.swift */; };
+		A9783D5C298879E9003620AD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A9783D5B298879E9003620AD /* Alamofire */; };
+		A9783D5E29887C56003620AD /* KategoriFilmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D5D29887C56003620AD /* KategoriFilmVC.swift */; };
+		A9783D6029887DAA003620AD /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D5F29887DAA003620AD /* Filmler.swift */; };
+		A9783D6229887DEF003620AD /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D6129887DEF003620AD /* Yonetmenler.swift */; };
+		A9783D6429887ED3003620AD /* FilmCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D6329887ED3003620AD /* FilmCevap.swift */; };
+		A9783D662988880D003620AD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D652988880D003620AD /* CollectionViewCell.swift */; };
+		A9783D6B298890BE003620AD /* FilmDetaylarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9783D6A298890BE003620AD /* FilmDetaylarVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9783D3A29887755003620AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9783D1B29887754003620AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9783D2229887754003620AD;
+			remoteInfo = "REST API Filmler";
+		};
+		A9783D4429887755003620AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9783D1B29887754003620AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9783D2229887754003620AD;
+			remoteInfo = "REST API Filmler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9783D2329887754003620AD /* REST API Filmler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REST API Filmler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9783D2629887754003620AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9783D2829887754003620AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9783D2A29887754003620AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9783D2D29887754003620AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9783D2F29887755003620AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9783D3229887755003620AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9783D3429887755003620AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9783D3929887755003620AD /* REST API FilmlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST API FilmlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9783D3D29887755003620AD /* REST_API_FilmlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_API_FilmlerTests.swift; sourceTree = "<group>"; };
+		A9783D4329887755003620AD /* REST API FilmlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST API FilmlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9783D4729887755003620AD /* REST_API_FilmlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_API_FilmlerUITests.swift; sourceTree = "<group>"; };
+		A9783D4929887755003620AD /* REST_API_FilmlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_API_FilmlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9783D5629887821003620AD /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		A9783D58298878A6003620AD /* KategorilerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerCevap.swift; sourceTree = "<group>"; };
+		A9783D5D29887C56003620AD /* KategoriFilmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriFilmVC.swift; sourceTree = "<group>"; };
+		A9783D5F29887DAA003620AD /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		A9783D6129887DEF003620AD /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		A9783D6329887ED3003620AD /* FilmCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCevap.swift; sourceTree = "<group>"; };
+		A9783D652988880D003620AD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A9783D6A298890BE003620AD /* FilmDetaylarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetaylarVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9783D2029887754003620AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9783D5C298879E9003620AD /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9783D3629887755003620AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9783D4029887755003620AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9783D1A29887754003620AD = {
+			isa = PBXGroup;
+			children = (
+				A9783D2529887754003620AD /* REST API Filmler */,
+				A9783D3C29887755003620AD /* REST API FilmlerTests */,
+				A9783D4629887755003620AD /* REST API FilmlerUITests */,
+				A9783D2429887754003620AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9783D2429887754003620AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9783D2329887754003620AD /* REST API Filmler.app */,
+				A9783D3929887755003620AD /* REST API FilmlerTests.xctest */,
+				A9783D4329887755003620AD /* REST API FilmlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9783D2529887754003620AD /* REST API Filmler */ = {
+			isa = PBXGroup;
+			children = (
+				A9783D2629887754003620AD /* AppDelegate.swift */,
+				A9783D2829887754003620AD /* SceneDelegate.swift */,
+				A9783D2A29887754003620AD /* ViewController.swift */,
+				A9783D2C29887754003620AD /* Main.storyboard */,
+				A9783D2F29887755003620AD /* Assets.xcassets */,
+				A9783D3129887755003620AD /* LaunchScreen.storyboard */,
+				A9783D3429887755003620AD /* Info.plist */,
+				A9783D5629887821003620AD /* Kategoriler.swift */,
+				A9783D58298878A6003620AD /* KategorilerCevap.swift */,
+				A9783D5D29887C56003620AD /* KategoriFilmVC.swift */,
+				A9783D5F29887DAA003620AD /* Filmler.swift */,
+				A9783D6129887DEF003620AD /* Yonetmenler.swift */,
+				A9783D6329887ED3003620AD /* FilmCevap.swift */,
+				A9783D652988880D003620AD /* CollectionViewCell.swift */,
+				A9783D6A298890BE003620AD /* FilmDetaylarVC.swift */,
+			);
+			path = "REST API Filmler";
+			sourceTree = "<group>";
+		};
+		A9783D3C29887755003620AD /* REST API FilmlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9783D3D29887755003620AD /* REST_API_FilmlerTests.swift */,
+			);
+			path = "REST API FilmlerTests";
+			sourceTree = "<group>";
+		};
+		A9783D4629887755003620AD /* REST API FilmlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9783D4729887755003620AD /* REST_API_FilmlerUITests.swift */,
+				A9783D4929887755003620AD /* REST_API_FilmlerUITestsLaunchTests.swift */,
+			);
+			path = "REST API FilmlerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9783D2229887754003620AD /* REST API Filmler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9783D4D29887755003620AD /* Build configuration list for PBXNativeTarget "REST API Filmler" */;
+			buildPhases = (
+				A9783D1F29887754003620AD /* Sources */,
+				A9783D2029887754003620AD /* Frameworks */,
+				A9783D2129887754003620AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REST API Filmler";
+			packageProductDependencies = (
+				A9783D5B298879E9003620AD /* Alamofire */,
+			);
+			productName = "REST API Filmler";
+			productReference = A9783D2329887754003620AD /* REST API Filmler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9783D3829887755003620AD /* REST API FilmlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9783D5029887755003620AD /* Build configuration list for PBXNativeTarget "REST API FilmlerTests" */;
+			buildPhases = (
+				A9783D3529887755003620AD /* Sources */,
+				A9783D3629887755003620AD /* Frameworks */,
+				A9783D3729887755003620AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9783D3B29887755003620AD /* PBXTargetDependency */,
+			);
+			name = "REST API FilmlerTests";
+			productName = "REST API FilmlerTests";
+			productReference = A9783D3929887755003620AD /* REST API FilmlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9783D4229887755003620AD /* REST API FilmlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9783D5329887755003620AD /* Build configuration list for PBXNativeTarget "REST API FilmlerUITests" */;
+			buildPhases = (
+				A9783D3F29887755003620AD /* Sources */,
+				A9783D4029887755003620AD /* Frameworks */,
+				A9783D4129887755003620AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9783D4529887755003620AD /* PBXTargetDependency */,
+			);
+			name = "REST API FilmlerUITests";
+			productName = "REST API FilmlerUITests";
+			productReference = A9783D4329887755003620AD /* REST API FilmlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9783D1B29887754003620AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A9783D2229887754003620AD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A9783D3829887755003620AD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A9783D2229887754003620AD;
+					};
+					A9783D4229887755003620AD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A9783D2229887754003620AD;
+					};
+				};
+			};
+			buildConfigurationList = A9783D1E29887754003620AD /* Build configuration list for PBXProject "REST API Filmler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9783D1A29887754003620AD;
+			packageReferences = (
+				A9783D5A298879E9003620AD /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = A9783D2429887754003620AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9783D2229887754003620AD /* REST API Filmler */,
+				A9783D3829887755003620AD /* REST API FilmlerTests */,
+				A9783D4229887755003620AD /* REST API FilmlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9783D2129887754003620AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9783D3329887755003620AD /* LaunchScreen.storyboard in Resources */,
+				A9783D3029887755003620AD /* Assets.xcassets in Resources */,
+				A9783D2E29887754003620AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9783D3729887755003620AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9783D4129887755003620AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9783D1F29887754003620AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9783D662988880D003620AD /* CollectionViewCell.swift in Sources */,
+				A9783D6B298890BE003620AD /* FilmDetaylarVC.swift in Sources */,
+				A9783D2B29887754003620AD /* ViewController.swift in Sources */,
+				A9783D5729887821003620AD /* Kategoriler.swift in Sources */,
+				A9783D5E29887C56003620AD /* KategoriFilmVC.swift in Sources */,
+				A9783D59298878A6003620AD /* KategorilerCevap.swift in Sources */,
+				A9783D2729887754003620AD /* AppDelegate.swift in Sources */,
+				A9783D2929887754003620AD /* SceneDelegate.swift in Sources */,
+				A9783D6229887DEF003620AD /* Yonetmenler.swift in Sources */,
+				A9783D6429887ED3003620AD /* FilmCevap.swift in Sources */,
+				A9783D6029887DAA003620AD /* Filmler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9783D3529887755003620AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9783D3E29887755003620AD /* REST_API_FilmlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9783D3F29887755003620AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9783D4829887755003620AD /* REST_API_FilmlerUITests.swift in Sources */,
+				A9783D4A29887755003620AD /* REST_API_FilmlerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9783D3B29887755003620AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9783D2229887754003620AD /* REST API Filmler */;
+			targetProxy = A9783D3A29887755003620AD /* PBXContainerItemProxy */;
+		};
+		A9783D4529887755003620AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9783D2229887754003620AD /* REST API Filmler */;
+			targetProxy = A9783D4429887755003620AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9783D2C29887754003620AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9783D2D29887754003620AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9783D3129887755003620AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9783D3229887755003620AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9783D4B29887755003620AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9783D4C29887755003620AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9783D4E29887755003620AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "REST API Filmler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omerahiskali.REST-API-Filmler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9783D4F29887755003620AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "REST API Filmler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omerahiskali.REST-API-Filmler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9783D5129887755003620AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omerahiskali.REST-API-FilmlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REST API Filmler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/REST API Filmler";
+			};
+			name = Debug;
+		};
+		A9783D5229887755003620AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omerahiskali.REST-API-FilmlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REST API Filmler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/REST API Filmler";
+			};
+			name = Release;
+		};
+		A9783D5429887755003620AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omerahiskali.REST-API-FilmlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "REST API Filmler";
+			};
+			name = Debug;
+		};
+		A9783D5529887755003620AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omerahiskali.REST-API-FilmlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "REST API Filmler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9783D1E29887754003620AD /* Build configuration list for PBXProject "REST API Filmler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9783D4B29887755003620AD /* Debug */,
+				A9783D4C29887755003620AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9783D4D29887755003620AD /* Build configuration list for PBXNativeTarget "REST API Filmler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9783D4E29887755003620AD /* Debug */,
+				A9783D4F29887755003620AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9783D5029887755003620AD /* Build configuration list for PBXNativeTarget "REST API FilmlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9783D5129887755003620AD /* Debug */,
+				A9783D5229887755003620AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9783D5329887755003620AD /* Build configuration list for PBXNativeTarget "REST API FilmlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9783D5429887755003620AD /* Debug */,
+				A9783D5529887755003620AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9783D5A298879E9003620AD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9783D5B298879E9003620AD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9783D5A298879E9003620AD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9783D1B29887754003620AD /* Project object */;
+}
